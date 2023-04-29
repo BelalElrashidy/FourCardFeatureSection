@@ -36,9 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/BeboElRashidy/FourCardFeatureSection)
+- Solution URL: [GitHub URL Solution](https://github.com/BeboElRashidy/FourCardFeatureSection)
 
-## My process
 
 ### Built with
 
@@ -59,7 +58,9 @@ To see how you can add code snippets, see below:
 ```
 ```css
 .proud-of-this-css {
-  color: papayawhip;
+  @media screen{
+
+  }
 }
 ```
 ```js
@@ -78,6 +79,6 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/BeboElRashidy)
-- Twitter - [@yourusername](https://twitter.com/Belal_Elrashidy)
+- Frontend Mentor - [@BeboElRashidy](https://www.frontendmentor.io/profile/BeboElRashidy)
+- Twitter - [@Belal_Elrashidy](https://twitter.com/Belal_Elrashidy)
 
