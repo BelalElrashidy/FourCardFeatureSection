@@ -1,0 +1,110 @@
+
+.container{
+    margin-top: 78px;
+    @media (max-width:767px){
+        margin-bottom: 50px;
+
+    }
+    @media (min-width: 768px){
+        margin-top: 65px;
+        margin-bottom: -500px;
+        height:1200px;
+        padding-bottom: -600px;
+        position: relative;
+        overflow: auto;
+    }
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-gap: 50px;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right:auto;
+    @media (max-width:768px) {
+        div:not(:first-child){
+            margin-top: 25px;
+        }
+    }
+    div:not(:nth-child(2)){
+        margin-top: 30px;
+    }
+    
+    div{
+        display: block;
+        width: 350px;
+        height: 246px;
+        background-color: $white;
+        border-width: 4px;
+        border-radius: 8px;
+        border-style: solid hidden hidden hidden;
+        box-shadow: 0px 5px 10px 0 $transparent ;
+        h1{
+            text-align: left;
+            padding-left: 32px;
+            font-size: 22px;
+            margin-bottom: 15px;
+            margin-top: 32px;
+    
+        }
+        p{
+            font-size: 15px;
+            text-align: left;
+            line-height: 1.5;
+            padding-left: 32px;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+        img{
+            position:relative;
+            left: 254px;
+            top: 30px;
+        }
+    }
+    
+    
+
+    
+}
+.super{
+    border-color: $Cyan;
+    @media(min-width: 768px){
+        order: 1;
+
+            position:relative;
+            right : 380px;
+            top: -125px;
+    }  
+}
+.team{
+    border-color: $Red;
+    @media (min-width: 768px) {
+        order: 0;
+        position: relative;
+        right: auto;
+        left: auto;
+    }
+    
+}
+.karma{
+
+    border-color: $Orange;
+    @media (min-width: 768px) {
+        order: 2;
+        position: relative;
+        top: -560px;
+
+    }
+    
+}
+.calc{
+
+    border-color: $Blue;
+    @media (min-width: 768px) {
+        order: 1;
+        position:relative;
+        left : 380px;
+        top: -405px;
+    }
+    
+}
