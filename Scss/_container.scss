@@ -1,12 +1,10 @@
 
 .container{
-    margin-top: 78px;
     @media (max-width:767px){
         margin-bottom: 50px;
 
     }
     @media (min-width: 768px){
-        margin-top: 65px;
         margin-bottom: -500px;
         height:1200px;
         padding-bottom: -600px;

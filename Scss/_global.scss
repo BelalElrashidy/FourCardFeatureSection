@@ -21,19 +21,17 @@ body{
     text-align: center;
     font-size: 37px;
     font-weight: $small-font;
-    color: $Grayish-Blue;
-    margin-top: 90px;
+    color: $Very-Dark-Blue;
+    margin-top: 80px;
 }
 
 h1{
     @media (max-width: 768px){
         font-size: 25px;
-        margin-top: 12px;
 
     }
-    margin-top: 14px;
     font-size: 37px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     text-align: center;
     font-weight: $big-font;
     color: $Very-Dark-Blue;
