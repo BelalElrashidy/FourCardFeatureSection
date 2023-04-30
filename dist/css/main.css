@@ -10,7 +10,6 @@ body {
   font-size: 15px;
   background-color: hsl(0, 0%, 98%);
   font-family: "Poppins", sans-serif;
-  height: 600px;
 }
 @media (min-width: 768px) {
   body {
@@ -23,7 +22,7 @@ body {
   font-size: 37px;
   font-weight: 200;
   color: hsl(229, 6%, 66%);
-  margin-top: 90px;
+  margin-top: 80px;
 }
 @media (max-width: 768px) {
   .first {
@@ -32,7 +31,6 @@ body {
 }
 
 h1 {
-  margin-top: 14px;
   font-size: 37px;
   margin-bottom: 25px;
   text-align: center;
@@ -42,7 +40,6 @@ h1 {
 @media (max-width: 768px) {
   h1 {
     font-size: 25px;
-    margin-top: 12px;
   }
 }
 
@@ -70,7 +67,7 @@ p {
 
 .container {
   margin-bottom: 50px;
-  margin-top: 30px;
+  margin-top: 55px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -104,12 +101,12 @@ p {
 .container .box h1 {
   text-align: left;
   padding-left: 32px;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 15px;
   margin-top: 32px;
 }
 .container .box p {
-  font-size: 15px;
+  font-weight: 200;
   text-align: left;
   line-height: 1.5;
   padding-left: 32px;

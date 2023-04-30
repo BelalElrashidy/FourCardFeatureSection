@@ -4,7 +4,7 @@
     @media (max-width:767px){
         margin-top: 25px;
     }
-    margin-top: 30px;
+    margin-top: 55px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -31,13 +31,13 @@
         h1{
             text-align: left;
             padding-left: 32px;
-            font-size: 22px;
+            font-size: 20px;
             margin-bottom: 15px;
             margin-top: 32px;
     
         }
         p{
-            font-size: 15px;
+            font-weight: $small-font;
             text-align: left;
             line-height: 1.5;
             padding-left: 32px;
