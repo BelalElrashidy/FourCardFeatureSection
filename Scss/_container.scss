@@ -1,34 +1,25 @@
 
 .container{
+    margin-bottom: 50px;
     @media (max-width:767px){
-        margin-bottom: 50px;
-
+        margin-top: 25px;
     }
-    @media (min-width: 768px){
-        margin-bottom: -500px;
-        height:1200px;
-        padding-bottom: -600px;
-        position: relative;
-        overflow: auto;
-    }
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    column-gap: 50px;
+    flex-direction: row;
+    gap: 30px;
     align-content: center;
     justify-content: center;
+    align-items: center;
     margin-left: auto;
     margin-right:auto;
     @media (max-width:768px) {
-        div:not(:first-child){
-            margin-top: 25px;
-        }
-    }
-    div:not(:nth-child(2)){
-        margin-top: 30px;
+        gap: 25px;
     }
     
-    div{
+    
+    .box{
         display: block;
         width: 350px;
         height: 246px;
@@ -59,50 +50,24 @@
             top: 30px;
         }
     }
-    
-    
-
-    
 }
 .super{
-    border-color: $Cyan;
-    @media(min-width: 768px){
-        order: 1;
-
-            position:relative;
-            right : 380px;
-            top: -125px;
-    }  
+    border-color: $Cyan;  
 }
 .team{
-    border-color: $Red;
-    @media (min-width: 768px) {
-        order: 0;
-        position: relative;
-        right: auto;
-        left: auto;
-    }
-    
+    border-color: $Red;    
 }
 .karma{
-
     border-color: $Orange;
-    @media (min-width: 768px) {
-        order: 2;
-        position: relative;
-        top: -560px;
-
-    }
-    
 }
 .calc{
-
     border-color: $Blue;
-    @media (min-width: 768px) {
-        order: 1;
-        position:relative;
-        left : 380px;
-        top: -405px;
-    }
-    
+}
+.vertical{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
 }

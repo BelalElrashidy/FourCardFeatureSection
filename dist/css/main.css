@@ -22,8 +22,8 @@ body {
   text-align: center;
   font-size: 37px;
   font-weight: 200;
-  color: hsl(234, 12%, 34%);
-  margin-top: 80px;
+  color: hsl(229, 6%, 66%);
+  margin-top: 90px;
 }
 @media (max-width: 768px) {
   .first {
@@ -32,8 +32,9 @@ body {
 }
 
 h1 {
+  margin-top: 14px;
   font-size: 37px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   text-align: center;
   font-weight: 600;
   color: hsl(234, 12%, 34%);
@@ -41,6 +42,7 @@ h1 {
 @media (max-width: 768px) {
   h1 {
     font-size: 25px;
+    margin-top: 12px;
   }
 }
 
@@ -67,38 +69,29 @@ p {
 }
 
 .container {
+  margin-bottom: 50px;
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  column-gap: 50px;
+  flex-direction: row;
+  gap: 30px;
   align-content: center;
   justify-content: center;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
 @media (max-width: 767px) {
   .container {
-    margin-bottom: 50px;
-  }
-}
-@media (min-width: 768px) {
-  .container {
-    margin-bottom: -500px;
-    height: 1200px;
-    padding-bottom: -600px;
-    position: relative;
-    overflow: auto;
-  }
-}
-@media (max-width: 768px) {
-  .container div:not(:first-child) {
     margin-top: 25px;
   }
 }
-.container div:not(:nth-child(2)) {
-  margin-top: 30px;
+@media (max-width: 768px) {
+  .container {
+    gap: 25px;
+  }
 }
-.container div {
+.container .box {
   display: block;
   width: 350px;
   height: 246px;
@@ -108,14 +101,14 @@ p {
   border-style: solid hidden hidden hidden;
   box-shadow: 0px 5px 10px 0 hsla(234, 12%, 34%, 0.2);
 }
-.container div h1 {
+.container .box h1 {
   text-align: left;
   padding-left: 32px;
   font-size: 22px;
   margin-bottom: 15px;
   margin-top: 32px;
 }
-.container div p {
+.container .box p {
   font-size: 15px;
   text-align: left;
   line-height: 1.5;
@@ -123,7 +116,7 @@ p {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-.container div img {
+.container .box img {
   position: relative;
   left: 254px;
   top: 30px;
@@ -132,46 +125,23 @@ p {
 .super {
   border-color: hsl(180, 62%, 55%);
 }
-@media (min-width: 768px) {
-  .super {
-    order: 1;
-    position: relative;
-    right: 380px;
-    top: -125px;
-  }
-}
 
 .team {
   border-color: hsl(0, 78%, 62%);
-}
-@media (min-width: 768px) {
-  .team {
-    order: 0;
-    position: relative;
-    right: auto;
-    left: auto;
-  }
 }
 
 .karma {
   border-color: hsl(34, 97%, 64%);
 }
-@media (min-width: 768px) {
-  .karma {
-    order: 2;
-    position: relative;
-    top: -560px;
-  }
-}
 
 .calc {
   border-color: hsl(212, 86%, 64%);
 }
-@media (min-width: 768px) {
-  .calc {
-    order: 1;
-    position: relative;
-    left: 380px;
-    top: -405px;
-  }
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
